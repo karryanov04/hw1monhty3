@@ -42,7 +42,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8JW-Au-Rpc">
-                                <rect key="frame" x="34" y="396" width="30" height="20.333333333333314"/>
+                                <rect key="frame" x="34" y="396" width="30" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="Rfd-bN-IJY"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="iUd-Lt-fnG"/>
@@ -53,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaE-nt-pe0">
-                                <rect key="frame" x="20" y="514.33333333333337" width="335" height="44"/>
+                                <rect key="frame" x="20" y="530" width="335" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="335" id="0bB-yt-RqA"/>
                                     <constraint firstAttribute="height" constant="44" id="acb-Vh-rNi"/>
@@ -65,7 +65,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Ts-we-Rwt">
-                                <rect key="frame" x="20" y="420.33333333333331" width="335" height="44"/>
+                                <rect key="frame" x="20" y="436" width="335" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="335" id="P80-gb-DYT"/>
                                     <constraint firstAttribute="height" constant="44" id="dOo-Iu-8yW"/>
@@ -74,7 +74,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbN-KC-M5C">
-                                <rect key="frame" x="20" y="570.33333333333337" width="335" height="44"/>
+                                <rect key="frame" x="20" y="586" width="335" height="34.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="335" id="0h8-15-JPT"/>
                                     <constraint firstAttribute="height" constant="44" id="9cK-wM-583"/>
@@ -86,7 +86,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="HbN-KC-M5C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4H9-66-llh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HbN-KC-M5C" secondAttribute="trailing" constant="20" id="AAZ-cf-QxD"/>
                             <constraint firstItem="FaE-nt-pe0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="G2N-Gk-8G0"/>
                             <constraint firstItem="7Rd-Lr-7Nc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="Gla-gU-TAR"/>
